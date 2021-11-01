@@ -1,0 +1,47 @@
+1- cd ate../unix_tests
+
+2- cat > skills2.txt
+   Internet
+   Unix
+   Bash
+
+   ctrl+d
+
+3- cat >> skills2.txt
+   Git
+   Github
+   Javascript
+   Python
+   React
+
+   ctrl+d
+
+   sort < skills2.txt
+
+4- cat skills2.txt | wc -l
+
+5- sort < skills2.txt | head -3 > top_skills.txt
+
+6- cat > phrases2.txt
+   Digam ao povo brasileiro que a República está feita.
+   
+   ctrl+d
+
+   cat >> phrases2.txt
+   Capitu olhos de cigana oblíqua e dissimulada.
+
+   ctrl+d
+
+7- grep br phrases2.txt | wc -l
+
+8- grep -v br phrases2.txt | wc -l
+
+9- cat >> phrases2.txt
+   Brasil
+   Egito
+
+   ctrl + d
+
+10- cat phrases2.txt countries.txt > bunch_of_things.txt
+
+11- sort bunch_of_things.txt
