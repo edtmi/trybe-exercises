@@ -11,7 +11,7 @@ This repository contains all the learning activities developed by [**Eduardo Miy
 ##### Block 1: Unix & Bash
 
 - [X] 1.3: *Unix & Bash- Part 1*
-- [ ] 1.4: *Unix & Bash- Part 2*
+- [X] 1.4: *Unix & Bash- Part 2*
 
 ##### Block 2: Git & GitHub
 
