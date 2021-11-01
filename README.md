@@ -16,7 +16,7 @@ This repository contains all the learning activities developed by [**Eduardo Miy
 ##### Block 2: Git & GitHub
 
 - [X] 2.1: *Git & GitHub - What is it and what is it for?*
-- [ ] 2.2: *Git & GitHub - Understanding the commands*
+- [X] 2.2: *Git & GitHub - Understanding the commands*
 - [ ] 2.3: *Internet - Understanding how it works*
 
 ##### Block 3: Introduction - HTML & CSS
