@@ -1,0 +1,32 @@
+CLIENTE
+1. manda uma solicitação ao ISP 
+2. a informação será dividida em pacotes pelo protocolo TCP/IP
+3. a informação trafega pelo HTTP
+4. a informação irá buscar o servidor DNS até encontrar o endereço de IP deste servidor 
+
+SERVIDOR
+1. monta os pacotes
+2. processa as informações para atender a solicitação recebida
+3. buscará as informações necessárias para atender a solicitação em seu banco de dados
+4. dividir a informação de resposta pelo protocolo TCP/IP
+5. a resposta irá trafegar pelo HTTP
+
+BROWSER
+
+1. montar os pacotes
+2. browser recebe
+3. renderiza o site
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gurpo: 1010 Coders
