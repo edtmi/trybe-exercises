@@ -6,3 +6,4 @@ Below is what I learned:
 
 **Block 01**: Manipulation of Unix & Bash by commands;
 
+**Block 02**: Manipulation of my first Git/Github repository and understanding how the internet works;
