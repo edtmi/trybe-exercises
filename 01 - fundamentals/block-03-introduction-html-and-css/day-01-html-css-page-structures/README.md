@@ -1,4 +1,6 @@
-# Para fixar I - Html - primeiras tags
+# Exercícios para fixar:
+
+## Para fixar I - Html - primeiras tags
 
 `index.html`
 
@@ -19,7 +21,7 @@
 2. Adicione uma imagem que venha de uma URL externa.
 3. Adicione uma imagem que está no seu computador, local.
 
-# Para fixar II - Html - links externos e internos
+## Para fixar II - Html - links externos e internos
 
 `index.html`
 
