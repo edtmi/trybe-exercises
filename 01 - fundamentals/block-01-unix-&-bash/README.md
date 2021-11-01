@@ -10,3 +10,11 @@
 
 5. Renaming files and asking for help.
 
+# Day 04 :heavy_check_mark:
+
+1. Terminal inputs and outputs;
+
+2. Manipulating linux permissions;
+
+3. Linux process and jobs Management.
+
