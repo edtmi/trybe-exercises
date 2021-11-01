@@ -12,3 +12,14 @@
 
 2. Git log, git remove, git ignore, git pull and git fetch. How to make a Pull Request.
 
+# Day 03 :heavy_check_mark:
+
+## Part I
+
+1. Pieces that shape our Internet;
+
+2. Structuring a web application and the client-server concept.
+ 
+## Part II
+
+1. Introduction of the HTTP protocol.
