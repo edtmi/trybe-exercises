@@ -6,3 +6,9 @@
 
 3. Externs and internals links.
 
+# Day 02 :heavy_check_mark:
+
+1. Introduction to css;
+
+2. Manipulating and linking your css in your home page;
+
