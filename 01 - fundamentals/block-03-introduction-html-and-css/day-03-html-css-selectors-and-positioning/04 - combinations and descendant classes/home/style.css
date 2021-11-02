@@ -1,0 +1,14 @@
+/*  1 - Faça com que todos os itens de Listas Ordenadas tenham uma cor 
+de fundo amarela. Se a numeração do item for PAR, faça a cor de fonte s
+er verde. Se o número for considerado ÍMPAR, utilize a propriedade 
+text-transform para deixar o texto maiúsculo. (Dica: combinar classes 
+pode ser útil aqui).  */
+ol li {
+  background-color: yellow;
+}
+ol li:nth-child(even) {
+  color: green;
+}
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+}
