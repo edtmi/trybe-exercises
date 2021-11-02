@@ -24,7 +24,7 @@ This repository contains all the learning activities developed by [**Eduardo Miy
 - [X] 3.1: *HTML & CSS - Page Structures*
 - [X] 3.2: *HTML & CSS - Getting Started with CSS*
 - [X] 3.3: *HTML & CSS - Selectors and positioning*
-- [ ] 3.4: *Semantic HTML*
+- [X] 3.4: *Semantic HTML*
 - [ ] 3.5: *[Project - Lessons Learned]()*
 
 ##### Block 4: Introduction - JavaScript
