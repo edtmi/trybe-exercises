@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+h1{
+    background-color: cadetblue;
+    text-align: center;
+}
+nav{
+    background-color: cadetblue;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 180px;
+}
+p{
+    margin-right: 500px;
+}
+img {
+    width: 500px;
+    margin-left: 1070px;
+    margin-top: -160px;
+}
+table {
+    margin-top: -200px;
+}
+.eyes{
+    width: 500px;
+    height: 350px;
+    margin-left: 1070px;
+    margin-top: -300px;
+}
+.strong{
+    width: 500px;
+    margin-left: 1070px;
+    margin-top: -170px;
+}
+aside {
+    float: right;
+}
