@@ -18,3 +18,12 @@ console.log("My name is " + myName + " native " + birthCity + " and is was born 
 Faça um console.log(birthYear) novamente para ver o que acontece! */
 birthYear = 2030;
 console.log(birthYear);
+
+/* 6. Altere o valor atribuído à constante birthCity. Faça um 
+console.log(birthCity) novamente! Você saberia explicar por que 
+recebemos uma mensagem de erro? 🤔 */
+//birthCity = 'São Paulo';
+//console.log(birthCity);
+
+/* Resposta: O erro é porque não se pode alterar o valor atribuído 
+a uma variável constante. */
