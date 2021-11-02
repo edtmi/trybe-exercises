@@ -1,0 +1,31 @@
+.super-mario {
+  width: 200px;
+  /* 1 - Posicione o Mário acima do Goomba. */
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  left: 350px;
+}
+
+.goomba {
+  width: 100px;
+  /* 1 - Posicione o Mário acima do Goomba. */
+  position: absolute;
+  z-index: 2;
+  top: 500px;
+  left: 400px;
+}
+
+.baloon {
+
+}
+
+.speach {
+  font-size: 25px;
+
+}
+
+.bowser {
+  width: 200px;
+  
+}
