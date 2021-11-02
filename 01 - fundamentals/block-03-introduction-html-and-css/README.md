@@ -12,3 +12,12 @@
 
 2. Manipulating and linking your css in your home page;
 
+# Day 03 :heavy_check_mark:
+
+1. Box model concept;
+
+2. Element postioning;
+
+3. Pseudo-class selectors;
+
+4. Combinations of classes in HTML elements and descent to apply styles to specific elements.
