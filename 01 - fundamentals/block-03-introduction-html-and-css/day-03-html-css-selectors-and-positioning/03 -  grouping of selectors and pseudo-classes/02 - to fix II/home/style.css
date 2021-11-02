@@ -3,3 +3,20 @@ elas ganhem uma borda.  */
 div:active {
   padding: 5px;
 }
+/* 2 - Faça cada div ter uma cor própria.  */
+div:nth-of-type(1) {
+  background-color: red;
+}
+div:nth-of-type(2) {
+  background-color: green;
+}
+div:nth-of-type(3) {
+  background-color: blue;
+}
+div:nth-of-type(4) {
+  color: white;
+  background-color: black;
+}
+div:nth-of-type(5) {
+  background-color: burlywood;
+}
