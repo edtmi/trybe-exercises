@@ -9,3 +9,6 @@ Below is what I learned:
 **Block 02**: Manipulation of my first Git/Github repository and understanding how the internet works;
 
 **Block 03**: Introduction to HTML and CSS, learning about tags and how to make semantic pages with element positioning;
+
+**Block 04**: I learned good practice in javascript and improved my logic using conditions, arrays, objects and functions;
+
