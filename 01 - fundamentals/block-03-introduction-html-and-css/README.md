@@ -21,3 +21,9 @@
 3. Pseudo-class selectors;
 
 4. Combinations of classes in HTML elements and descent to apply styles to specific elements.
+
+# Day 04 :heavy_check_mark:
+
+1. Make my page cleaner with semantic tags;
+2. Understanding properties: display inline, block and inline-block.
+
