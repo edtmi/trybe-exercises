@@ -1,0 +1,5 @@
+/* 1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, 
+elas ganhem uma borda.  */
+div:active {
+  padding: 5px;
+}
