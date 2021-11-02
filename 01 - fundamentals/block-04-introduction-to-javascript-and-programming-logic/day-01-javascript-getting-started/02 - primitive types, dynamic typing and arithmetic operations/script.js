@@ -9,3 +9,8 @@ sempre o console.log() para imprimir as variáveis e checar os
 resultados das operações! */
 const area = base * height;
 console.log('The base area'+ base +' and height '+ height +' is: '+ 'area');
+
+/* 3. Crie uma constante chamada perimeter e atribua a ela a soma de todos 
+os lados do retângulo. */
+const perimeter = 2*(base + height);
+console.log('The perimeter of the rectangle is: '+ perimeter);
