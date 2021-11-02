@@ -13,3 +13,8 @@ let birthYear = 1989;
 /* 4. Utilize o console.log() para imprimir as constantes e variáveis 
 que você criou. */
 console.log("My name is " + myName + " native " + birthCity + " and is was born in " + birthYear +".");
+
+/* 5. Altere o valor atribuído à variável birthYear para 2030. 
+Faça um console.log(birthYear) novamente para ver o que acontece! */
+birthYear = 2030;
+console.log(birthYear);
