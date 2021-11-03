@@ -15,3 +15,7 @@
 1. Working with arrays;
 
 2. Loops and iteration with for and for/of.
+
+# Day 03 :heavy_check_mark:
+
+1. Baby steps in javascript.
