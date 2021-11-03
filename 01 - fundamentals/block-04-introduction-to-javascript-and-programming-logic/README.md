@@ -19,3 +19,11 @@
 # Day 03 :heavy_check_mark:
 
 1. Baby steps in javascript.
+
+# Day 04 :heavy_check_mark:
+
+1. Studying objects;
+
+2. Manipulating objects with for/in;
+
+3. Organizing my javascript code with functions.
