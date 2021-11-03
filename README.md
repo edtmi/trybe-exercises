@@ -31,7 +31,7 @@ This repository contains all the learning activities developed by [**Eduardo Miy
 
 - [X] 4.1: *JavaScript - Getting Started*
 - [X] 4.2: *JavaScript - Array and For loop*
-- [ ] 4.3: *JavaScript - Programming Logic and Algorithms*
+- [X] 4.3: *JavaScript - Programming Logic and Algorithms*
 - [ ] 4.4: *JavaScript - Objects and functions*
 - [ ] 4.5: *[Project - Playground Functions]()*
 
