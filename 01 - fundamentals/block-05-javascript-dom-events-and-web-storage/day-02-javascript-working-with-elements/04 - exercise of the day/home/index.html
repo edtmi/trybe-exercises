@@ -119,6 +119,14 @@
       addTagLi.innerHTML = arrayLi[index];
       addTagUl.appendChild(addTagLi);
     }
+    
+    // 9-Adicione 3 tags h3 , todas sendo filhas do main criado no 
+    // passo 2.
+    for (let index = 1; index <= 3; index += 1) {
+      let addTagH3 = document.createElement("h3");
+      addTagH3.innerHTML = 'Testing ' + index;
+      tagMain.appendChild(addTagH3);
+    }
   </script>
 </body>
 
