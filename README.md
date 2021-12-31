@@ -39,7 +39,7 @@ This repository contains all the learning activities developed by [**Eduardo Miy
 
 - [X] 5.1: *JavaScript - DOM and selectors*
 - [X] 5.2: *JavaScript - Working with elements*
-- [ ] 5.3: *JavaScript - Events*
+- [X] 5.3: *JavaScript - Events*
 - [ ] 5.4: *JavaScript - Web Storage*
 - [ ] 5.5: *[Project - Pixel Art]()*
 - [ ] 5.6: *[Project - Task List]()*
