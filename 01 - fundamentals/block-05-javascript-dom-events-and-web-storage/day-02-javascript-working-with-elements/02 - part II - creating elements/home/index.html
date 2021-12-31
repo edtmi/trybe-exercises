@@ -25,5 +25,10 @@
     let createChild = document.createElement("section");
     createChild.id = "filhoDoPrimeiroFilho";
     searchElement2.appendChild(createChild);
-    </script>
+    // 4-A partir desse filho criado, acesse terceiroFilho.
+    let searchChild = document.querySelector("#elementoOndeVoceEsta").lastElementChild;
+    searchChild.parentElement;
+    searchChild.nextElementSibling;
+    console.log(searchChild);
+  </script>
 </main>
