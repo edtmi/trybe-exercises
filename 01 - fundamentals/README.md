@@ -12,3 +12,4 @@ Below is what I learned:
 
 **Block 04**: I learned good practice in javascript and improved my logic using conditions, arrays, objects and functions;
 
+**Block 05**: Working with Dom, Events ans Web Storage;
