@@ -14,6 +14,7 @@
 
 3. Removing elements.
 
+# Day 03 :heavy_check_mark:
 
-
+1. Working with addEventListener.
 
