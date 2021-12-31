@@ -38,7 +38,7 @@ This repository contains all the learning activities developed by [**Eduardo Miy
 ##### Block 5: JavaScript: DOM, Events and Web Storage
 
 - [X] 5.1: *JavaScript - DOM and selectors*
-- [ ] 5.2: *JavaScript - Working with elements*
+- [X] 5.2: *JavaScript - Working with elements*
 - [ ] 5.3: *JavaScript - Events*
 - [ ] 5.4: *JavaScript - Web Storage*
 - [ ] 5.5: *[Project - Pixel Art]()*
