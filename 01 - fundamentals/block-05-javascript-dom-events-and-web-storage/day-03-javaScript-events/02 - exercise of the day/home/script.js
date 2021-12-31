@@ -49,3 +49,20 @@ function createHolidayButton(string) {
   buttonContainer.appendChild(button);
 }
 createHolidayButton('Feriados');
+
+//Exercicio 3
+function changeHolidayBackground() {
+  let getHolidayButton = document.querySelector('#btn-holiday');
+  let getHolidays = document.querySelectorAll('.day-holiday');
+
+  getHolidayButton.addEventListener('click', function () {
+    for (let index = 0; index < getHolidays.length; index += 1) {
+      if (getHolidays[index].style.backgroundColor === 'white') {
+        getHolidays[index].style.backgroundColor = 'unset';
+      } else {
+        getHolidays[index].style.backgroundColor = 'white';
+      }
+    }
+  })
+}
+changeHolidayBackground();
