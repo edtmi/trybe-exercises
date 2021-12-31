@@ -33,3 +33,13 @@ function changeText() {
   });
 }
 changeText();
+
+// 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
+// redirecione para alguma página;
+// 4.1. Que tal redirecionar para seu portifólio?
+function changePage() {
+  myWebpage.addEventListener("dblclick", function () {
+    window.open("https://www.globo.com/", "_blank");
+  });
+}
+changePage();
