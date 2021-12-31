@@ -100,3 +100,18 @@ function changeFridayText() {
   })
 }
 changeFridayText();
+
+//Exercicio 6
+function changeTextSize() {
+  const dayList = document.querySelectorAll('#days');
+
+  for (let index = 0; index < dayList.length; index += 1) {
+    dayList[index].addEventListener('mouseover', function (event) {
+      event.target.style.fontSize = '30px';
+    })
+    dayList[index].addEventListener('mouseout', function (event) {
+      event.target.style.fontSize = '20px'; //unset
+    })
+  }
+}
+changeTextSize();
