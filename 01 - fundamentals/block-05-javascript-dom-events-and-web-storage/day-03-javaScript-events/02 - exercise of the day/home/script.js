@@ -135,3 +135,34 @@ function createSubtitleByColor(color) {
   selectTask.appendChild(createDiv);
 }
 createSubtitleByColor('green');
+
+//Exercicio 9
+/* Implemente uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua 
+tarefa, atribua a este elemento a classe task selected , ou seja, quando sua tarefa possuir a classe task selected , 
+ela estará selecionada.
+Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de 
+ser uma tarefa selecionada.*/
+function changeClass() {
+  // recupera a classe task contendo a string task
+  //   let selectedTask = document.getElementsByClassName('task selected');
+  //   let selectClass = document.querySelector('.task');
+
+  //   selectClass.addEventListener('click', function(event){
+  //     if (selectedTask.length === 0) {
+  //       event.target.className = 'task selected';
+  //     } else {
+  //       event.target.className = 'task';
+  //     }
+  //   })
+  // }
+  let tasks = document.querySelector('.task');
+  tasks.addEventListener('click', function (event) {
+    // event.target.classList.toggle('selected');
+    if (event.target.classList.length === 1) {
+      event.target.classList.add('selected');
+    } else {
+      event.target.classList.remove('selected');
+    }
+  })
+}
+changeClass();
