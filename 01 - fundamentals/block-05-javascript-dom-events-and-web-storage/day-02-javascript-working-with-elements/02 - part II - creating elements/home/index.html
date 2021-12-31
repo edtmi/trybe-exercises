@@ -20,5 +20,10 @@
     let createElements = document.createElement("section");
     createElements.id = "terceiroFilhoDoFilho";
     searchElement.appendChild(createElements);
+    // 3-Crie um filho para primeiroFilhoDoFilho.
+    let searchElement2 = document.querySelector("#pai").firstElementChild;
+    let createChild = document.createElement("section");
+    createChild.id = "filhoDoPrimeiroFilho";
+    searchElement2.appendChild(createChild);
     </script>
 </main>
