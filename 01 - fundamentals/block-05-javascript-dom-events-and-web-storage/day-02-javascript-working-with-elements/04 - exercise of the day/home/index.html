@@ -79,6 +79,13 @@
     let addTagSection = document.createElement("section");
     addTagSection.className = "center-content";
     tagMain.appendChild(addTagSection);
+
+    // 4-Adicione a tag p como filho do section criado no passo 3 e 
+    // coloque algum texto;
+    let tagSection = document.querySelector("section");
+    let addTagP = document.createElement("p");
+    addTagP.innerText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti optio, aut quasi eius architecto dolorum unde aliquid voluptates. Totam sed quod saepe corporis animi quibusdam eaque dignissimos sequi alias.";
+    tagSection.appendChild(addTagP);
   </script>
 </body>
 
