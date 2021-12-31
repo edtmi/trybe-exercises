@@ -15,5 +15,10 @@
     let criarElemento = document.createElement("section");
     criarElemento.id = "irmaoDoElementoOndeVoceEsta";
     buscarElemento.appendChild(criarElemento);
+    // 2- Crie um filho para elementoOndeVoceEsta.
+    let searchElement = document.querySelector("#pai").firstElementChild.nextElementSibling;
+    let createElements = document.createElement("section");
+    createElements.id = "terceiroFilhoDoFilho";
+    searchElement.appendChild(createElements);
     </script>
 </main>
