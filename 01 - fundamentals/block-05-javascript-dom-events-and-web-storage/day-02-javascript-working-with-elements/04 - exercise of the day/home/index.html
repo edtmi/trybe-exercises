@@ -155,6 +155,16 @@
     // verde;
     let changeColor = document.querySelector(".center-content");
     changeColor.style.backgroundColor = "green";
+
+    // 6-Remova os dois últimos elementos ( nove e dez ) da lista 
+    // criada no passo 8.
+    let listLi = document.querySelectorAll("li");
+    for (let index = 0; index < listLi.length; index += 1) {
+      let element = listLi[index];
+      if (element.innerText.includes("Nove") || element.innerText.includes("Dez")) {
+        addTagUl.removeChild(element);
+      }
+    }
   </script>
 </body>
 
