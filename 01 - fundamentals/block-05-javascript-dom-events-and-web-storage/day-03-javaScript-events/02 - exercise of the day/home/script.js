@@ -115,3 +115,12 @@ function changeTextSize() {
   }
 }
 changeTextSize();
+
+//Exercicio 7
+function createAssignment(string) {
+  const selectTask = document.querySelector('.my-tasks');
+  const createSpan = document.createElement('span');
+  createSpan.innerText = string;
+  selectTask.appendChild(createSpan);
+}
+createAssignment('Cozinhar');
