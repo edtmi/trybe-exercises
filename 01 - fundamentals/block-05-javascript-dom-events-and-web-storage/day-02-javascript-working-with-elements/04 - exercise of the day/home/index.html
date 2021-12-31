@@ -106,6 +106,19 @@
     addTagImg.src = "https://picsum.photos/200";
     addTagImg.className = "small-image";
     addTagSectionLeft.appendChild(addTagImg);
+
+    // 8-Adicione uma lista não ordenada com os valores de 1 a 10 
+    // por extenso, ou seja, um , dois , três , ... como valores da lista. 
+    // Essa lista deve ser filha do section criado no passo 6;
+    let addTagUl = document.createElement("ul");
+    addTagSectionRight.appendChild(addTagUl);
+    let arrayLi = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+      'Sete', 'Oito', 'Nove', 'Dez']
+    for (let index = 0; index < arrayLi.length; index += 1) {
+      let addTagLi = document.createElement("li");
+      addTagLi.innerHTML = arrayLi[index];
+      addTagUl.appendChild(addTagLi);
+    }
   </script>
 </body>
 
