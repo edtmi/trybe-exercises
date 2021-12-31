@@ -10,9 +10,12 @@
     <section id="quartoEUltimoFilho"></section>
   </section>
   <script>
-  // 1-Acesse o elemento elementoOndeVoceEsta.
-  document.getElementById("elementoOndeVoceEsta");
-  // 2-Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
-  document.querySelector("#elementoOndeVoceEsta").parentNode.style.color = "red";
+    // 1-Acesse o elemento elementoOndeVoceEsta.
+    document.getElementById("elementoOndeVoceEsta");
+    // 2-Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+    document.querySelector("#elementoOndeVoceEsta").parentNode.style.color = "red";
+    /* 3-Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos 
+    da aula anterior, como fazer isso? */
+    document.getElementsByTagName("section")[3].innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, soluta ex. Inventore perferendis reiciendis modi iste. Aut rerum, ab officia quasi suscipit sapiente voluptatem, quaerat molestias dignissimos minima odit illo."
   </script>
 </main>
