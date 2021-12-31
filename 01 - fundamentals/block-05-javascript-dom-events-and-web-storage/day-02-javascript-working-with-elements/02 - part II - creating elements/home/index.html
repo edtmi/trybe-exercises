@@ -1,0 +1,19 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+  <script>
+    // 1- Crie um irmão para elementoOndeVoceEsta.
+    let buscarElemento = document.querySelector("#pai");
+    let criarElemento = document.createElement("section");
+    criarElemento.id = "irmaoDoElementoOndeVoceEsta";
+    buscarElemento.appendChild(criarElemento);
+    </script>
+</main>
