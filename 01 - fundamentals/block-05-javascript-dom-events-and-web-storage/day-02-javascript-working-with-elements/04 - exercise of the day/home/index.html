@@ -98,6 +98,14 @@
     let addTagSectionRight = document.createElement("section");
     addTagSectionRight.className = "right-content";
     tagMain.appendChild(addTagSectionRight);
+
+    // 7-Adicione uma imagem com src configurado para o valor 
+    // https://picsum.photos/200 e classe small-image . Esse elemento 
+    // deve ser filho do section criado no passo 5;
+    let addTagImg = document.createElement("img");
+    addTagImg.src = "https://picsum.photos/200";
+    addTagImg.className = "small-image";
+    addTagSectionLeft.appendChild(addTagImg);
   </script>
 </body>
 
