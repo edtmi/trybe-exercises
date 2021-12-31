@@ -4,6 +4,16 @@
 
 2. Type of elements selectors;
 
-3. Which selector is better;
+3. Which selector is better.
+
+# Day 02 :heavy_check_mark:
+
+1. Creating elements;
+
+2. Searching elements;
+
+3. Removing elements.
+
+
 
 
