@@ -81,6 +81,15 @@
       }
     }
     changePTextToUppercase();
+
+    //6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.       
+    function showAllContentTagsP() {
+      let listText = document.getElementsByTagName("p");
+      for (let index in listText) {
+        console.log(listText[index].value);
+      }
+    }
+    showAllContentTagsP();
   </script>
 </body>
 
