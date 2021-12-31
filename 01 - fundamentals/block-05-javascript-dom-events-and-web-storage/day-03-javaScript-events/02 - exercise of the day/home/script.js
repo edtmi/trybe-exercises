@@ -124,3 +124,14 @@ function createAssignment(string) {
   selectTask.appendChild(createSpan);
 }
 createAssignment('Cozinhar');
+
+//Exercício 8
+function createSubtitleByColor(color) {
+  const createDiv = document.createElement('div');
+
+  createDiv.className = 'task';
+  createDiv.style.backgroundColor = color;
+  const selectTask = document.querySelector('.my-tasks');
+  selectTask.appendChild(createDiv);
+}
+createSubtitleByColor('green');
