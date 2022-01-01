@@ -166,3 +166,37 @@ function changeClass() {
   })
 }
 changeClass();
+
+//Exercício 10
+function changeColorDay() {
+  //   const selectDays = document.querySelectorAll('#days');
+  //   let selectTask = document.querySelector('.task');
+  //   let getColor = selectTask.style.backgroundColor;
+  //   let validate = true;
+  //   for (let index = 0; index < selectDays.length; index += 1) {
+  //     selectDays[index].addEventListener('click', function(event) {
+  //     if (validate === true) {
+  //       event.target.style.color = getColor;
+  //       validate = false
+  //     } else
+  //     if (validate === false){  
+  //       event.target.style.color = 'rgb(119,119,119)';
+  //       validate = true;
+  //     }
+  //   })
+  // }  
+  const days = document.querySelectorAll('#days');
+
+  for (let index = 0; index < days.length; index += 1) {
+    days[index].addEventListener('click', function (event) {
+      const selectedTask = document.querySelector('.selected');
+      const color = selectedTask.style.backgroundColor;
+      if (event.target.style.color === color) {
+        event.target.style.color = 'rgb(119,119,119)';
+      } else {
+        event.target.style.color = color;
+      }
+    })
+  }
+}
+changeColorDay();
