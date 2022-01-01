@@ -200,3 +200,33 @@ function changeColorDay() {
   }
 }
 changeColorDay();
+
+/*Bônus:
+Vamos adicionar compromissos ao seu calendário? Implemente uma função que, ao digitar um compromisso na caixa de texto 
+"COMPROMISSOS", adiciona o item à lista "MEUS COMPROMISSOS" ao clicar no botão "ADICIONAR".
+Se nenhum caractere for inserido no campo input , a função deve retornar um alert com uma mensagem de erro ao clicar 
+em "ADICIONAR".
+Ao pressionar a tecla "enter" o evento também deverá ser disparado.
+Dica - Propriedade: keyCode . */
+function addEventProgram(event) {
+  const text = document.querySelector('#task-input');
+  if (event.keyCode === 13 || event.type === 'click') {
+    if (text.value.length === 0) {
+      alert('Erro!');
+    } else {
+      let getList = document.querySelector('.task-list');
+      let listItem = document.createElement('li');
+      listItem.innerText = text.value;
+      getList.appendChild(listItem);
+      text.value = '';
+    }
+  }
+}
+
+function alertButton() {
+  const button = document.querySelector('#btn-add');
+  button.addEventListener('click', addEventProgram);
+  const inputText = document.querySelector('#task-input');
+  inputText.addEventListener('keyup', addEventProgram);
+}
+alertButton();
